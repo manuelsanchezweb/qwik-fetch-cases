@@ -44,7 +44,6 @@ export const PokemonCard = component$(({ id = 1 }: { id: number }) => {
         >
           <img
             height={128}
-            width={128}
             class="h-32 w-32"
             src={pokemonData.value?.sprites?.front_default}
             alt={pokemonData.value?.name}
